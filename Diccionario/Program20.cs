@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Semicrol.Diccionario
+namespace Console.Diccionario
 {
     class Program20
     {
@@ -12,10 +12,10 @@ namespace Semicrol.Diccionario
         {
             Dictionary<string, Persona> diccionario = new Dictionary<string, Persona>();
             Persona p1 = new Persona();
-            p1.Nombre = "Luisa";
+            p1.Nombre = "Marcos";
             p1.Apellidos = "García";
             p1.Edad = 30;
-            diccionario.Add("Luisa", p1);
+            diccionario.Add("Marcos", p1);
 
             foreach (Persona p in diccionario.Values)
             {
